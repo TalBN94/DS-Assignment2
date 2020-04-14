@@ -19,7 +19,7 @@ public class BacktrackingArray implements Array<Integer>, Backtrack {
 
     @Override
     public Integer search(int x) {
-        for (int i=0;i<arr.length;i=i+1) {
+        for (int i=0;i<size;i=i+1) {
             if (arr[i]==x)
                 return i;
         }
